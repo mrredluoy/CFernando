@@ -27,11 +27,11 @@
   width: 100%;
   height: 100%; 
   flex-direction: column;
-  overflow-y:auto;
+  
 }
 .conten-logo{
   width:100% ;
-  height:45%;  
+  height:300px;   
 }
 
 .cards{
@@ -75,7 +75,7 @@
 
 .img-logo{
   width: 100%;
-  height: 100%;
+  height: 250px;
   filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(4000%) contrast(1000%);
 }
 .conten-items{
@@ -198,9 +198,7 @@ flex-direction: column;
  }  
 
 
- @media screen  and (max-width:1200px){
-  
-}
+
 
 @media screen  and (max-width:800px){
   .content-botom{
@@ -250,6 +248,9 @@ flex-direction: column;
    .conten-logo{
      height: 30%;
    }
+   .conten-logo{
+    margin-bottom: 10%;   
+   }
 
 .card-items:active{
  background-color:rgba(106, 131, 129, 0.486);
@@ -262,6 +263,3 @@ flex-direction: column;
 
 }
 
-@media screen  and (max-width:500px){
-  
-} 
